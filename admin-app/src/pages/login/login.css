@@ -1,0 +1,89 @@
+.center .logo1 {
+  font-weight: bold;
+  font-size: 45px;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  margin-left: 80px;
+}
+.center {
+  margin-bottom: 85px;
+}
+.main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url(https://wi.wallpapertip.com/wsimgs/196-1963020_website-backgrounds-website-login-page-background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.mainPanel {
+  width: 400px;
+  padding: 20px;
+  background-color: #163d49;
+  height: 60vh;
+  border-radius: 10px;
+}
+.panel {
+  display: flex;
+  flex-direction: column;
+}
+
+.center h1 {
+  color: white;
+  text-align: center;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.center p {
+  color: gray;
+  font-weight: 500;
+  text-align: center;
+  font-size: 18px;
+}
+/* .icon_container {
+  font-size: 25px;
+  color: white;
+  margin-left: 20px;
+} */
+.icon {
+  padding: 10px 4px 10px;
+  color: white;
+  min-width: 40px;
+  text-align: center;
+  font-size: 25px;
+}
+.icon_container input[type="password"] {
+  width: 320px;
+  padding: 10px;
+  padding-bottom: 0;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid white;
+  background: none;
+}
+.icon_container input[type="text"] {
+  width: 320px;
+  padding: 10px;
+  padding-bottom: 0;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid white;
+  background: none;
+}
+
+.panel button:hover {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+  }
+.input::placeholder {
+    color: white;
+    font-size: 16px;
+    opacity: 1; /* Firefox */
+    font-weight: 500;
+  }
